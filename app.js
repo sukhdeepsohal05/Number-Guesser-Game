@@ -4,8 +4,6 @@ let randNum = Math.ceil(Math.random()*10);
 let Message = document.querySelector('.msg');
 let submit = document.querySelector('.submit');
 
-console.log(randNum);
-
 let i = 2;
 
 form.addEventListener('submit', (e)=>{
